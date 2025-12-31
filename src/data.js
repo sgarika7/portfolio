@@ -35,7 +35,7 @@ export const DATA = {
       {
         title: "Credit Card Classification",
         stack: ["Python", "Flask", "PostgreSQL", "XGBoost"],
-        image: "https://sgarika7.github.io/portfolio/image.png",
+        image: image: `${import.meta.env.BASE_URL}image.png`,
         description:
           "Built and deployed credit score classifiers, selecting the best model and exposing real time inference through a Flask API.",
         bullets: [
@@ -47,7 +47,7 @@ export const DATA = {
       {
         title: "Full Stack Student Survey Application",
         stack: ["Angular", "Spring Boot", "REST API", "MySQL"],
-        image: "public/image2.png",
+        image: image: `${import.meta.env.BASE_URL}image2.png`,
         description:
           "CRUD web app for collecting and managing prospective student survey submissions with a structured backend and dynamic UI.",
         bullets: [
