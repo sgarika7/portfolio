@@ -47,7 +47,7 @@ export const DATA = {
       {
         title: "Full Stack Student Survey Application",
         stack: ["Angular", "Spring Boot", "REST API", "MySQL"],
-        image: "/image2.png",
+        image: "public/image2.png",
         description:
           "CRUD web app for collecting and managing prospective student survey submissions with a structured backend and dynamic UI.",
         bullets: [
