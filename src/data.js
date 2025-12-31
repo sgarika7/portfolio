@@ -2,7 +2,6 @@ export const DATA = {
     name: "Sharanya Garika",
     location: "Fairfax, VA",
     email: "sharanyagarika714@gmail.com",
-    phone: "571 353 9285",
     linkedin: "https://www.linkedin.com/in/sharanyagarika/",
     github: "https://github.com/sgarika7",
     roles: ["Software Engineer", "Data Engineer", "ML Engineer"],
@@ -36,7 +35,7 @@ export const DATA = {
       {
         title: "Credit Card Classification",
         stack: ["Python", "Flask", "PostgreSQL", "XGBoost"],
-        image: "/image.png",
+        image: "https://sgarika7.github.io/portfolio/image.png",
         description:
           "Built and deployed credit score classifiers, selecting the best model and exposing real time inference through a Flask API.",
         bullets: [
